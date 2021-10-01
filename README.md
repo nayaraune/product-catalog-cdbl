@@ -12,7 +12,7 @@ Sendo assim, a empresa deseja implementar um sistema para ter mais confiabilidad
 
 ## Ambiente Local
 
-Execute `ng serve` para que o projeto suba localmente. Acesse a url http://localhost:4200/. 
+Execute `npm start` ou `ng serve` para que o projeto suba localmente. Acesse a url http://localhost:4200/. 
 
 ## Simulando o Back-end
 

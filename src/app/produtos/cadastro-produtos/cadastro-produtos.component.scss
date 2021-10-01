@@ -1,0 +1,37 @@
+.container{
+    background-color:#111;
+    border-radius: 5px;
+    margin-top: 2rem;
+    color:#fff;
+}
+
+.title{
+    background-color:#111;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 1rem 0;
+
+}
+
+.mat-card-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mat-raised-button{
+    padding: .2rem 1rem;
+    margin: 0 .5rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.mat-raised-button:hover{
+    transform: scale(1.1);
+}
+
+

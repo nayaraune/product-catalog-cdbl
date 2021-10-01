@@ -1,0 +1,26 @@
+
+
+  <mat-toolbar class="navbar">
+    <div class="logo">Descontrolada®</div>
+    <div class="nav-link">
+    <ul class="nav-list">
+    <li class="list-item"><a [routerLink]="['/produtos']">LISTA DE PRODUTOS</a></li>
+     <li class="list-item"><a [routerLink]="['/produtos/cadastro']">CADASTRAR PRODUTOS</a></li>
+    </ul>
+  </div>
+  </mat-toolbar>
+
+ 
+
+
+
+    <div class="app-content">
+      <router-outlet></router-outlet>
+    </div>
+  
+    <cdb-rodape></cdb-rodape>
+
+
+
+
+

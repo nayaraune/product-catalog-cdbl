@@ -1,0 +1,79 @@
+
+.navbar{
+  background-color: transparent;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+}
+
+.logo{
+  color: #fff;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  padding: 1rem 1rem;
+  font-style: bold;
+}
+
+.nav-list{
+  display: flex;
+}
+
+.nav-link a{
+  position: relative;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+}
+
+
+.nav-link a::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .nav-link a:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+
+.list-item{
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: bold;
+
+}
+
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}
+
+.app-content {
+  min-height: calc(100vh - 110px);
+}
+
+.app-title {
+  text-transform: uppercase;
+  padding-left: 26px;
+}
+
+.header-toolbar {
+  justify-content: space-between;
+}

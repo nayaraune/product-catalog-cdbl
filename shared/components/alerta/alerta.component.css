@@ -1,0 +1,13 @@
+    .mat-raised-button{
+        padding: .2rem 1rem;
+        margin: 0 .5rem;
+        border-radius: 20px;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+    
+    .mat-raised-button:hover{
+        transform: scale(1.1);
+    } 

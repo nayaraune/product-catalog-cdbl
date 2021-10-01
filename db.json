@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "nome": "Abacate ",
+      "preco": 12.48,
+      "descricao": "Abacate rico em vitaminas C, E e K e minerais.",
+      "qtd": 50,
+      "dtCadastro": "2021-09-22T03:00:00.000Z",
+      "tipo": "Orgânico",
+      "id": 1
+    },
+    {
+      "nome": "Banana",
+      "preco": 3.99,
+      "descricao": "Banana rica em minerais como potássio.",
+      "qtd": 100,
+      "dtCadastro": "2021-09-28T03:00:00.000Z",
+      "tipo": "Não Orgânico",
+      "id": 2
+    },
+    {
+      "nome": "Mamão ",
+      "preco": 13.4,
+      "descricao": "Fruta saborosa e saudável.",
+      "qtd": 35,
+      "dtCadastro": "2021-09-29T03:00:00.000Z",
+      "tipo": "Orgânico",
+      "id": 3
+    },
+    {
+      "nome": "Morango ",
+      "preco": 8.6,
+      "descricao": "Fruta vermelha, cuja origem é a Europa.",
+      "qtd": 120,
+      "dtCadastro": "2021-09-30T03:00:00.000Z",
+      "tipo": "Orgânico",
+      "id": 4
+    },
+    {
+      "nome": "Orégano ",
+      "preco": 4,
+      "descricao": "Toque especial para pizzas.",
+      "qtd": 5,
+      "dtCadastro": "2021-09-28T03:00:00.000Z",
+      "tipo": "Não Orgânico",
+      "id": 5
+    },
+    {
+      "nome": "Batata",
+      "preco": 3.5,
+      "descricao": "Perfeita de todas as formas.",
+      "qtd": 200,
+      "dtCadastro": "2021-09-27T03:00:00.000Z",
+      "tipo": "Não Orgânico",
+      "id": 6
+    }
+  ]
+}
